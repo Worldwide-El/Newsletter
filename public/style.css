@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Open+Sans&family=Playfair+Display:wght@400;700&family=Poppins&family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+body{
+    background: linear-gradient(to bottom, rgb(79, 95, 241), rgb(9, 26, 37));
+}
+
+
+button{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+button:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+h1{
+    font-weight: bold;
+}
+
+
+i{
+    position: absolute;
+    margin: 15px 0 0 15px;
+    
+    
+    
+}
+
+
+p{
+    right: 10px;
+}
+
+
+.bottom{
+    font-size: small;
+    margin-top: 10px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+.jumbo{
+    height: 100vh;
+}
+
+
+.top-header{
+    margin-bottom: 50px;
+}
